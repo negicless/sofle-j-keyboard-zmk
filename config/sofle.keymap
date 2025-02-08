@@ -67,12 +67,12 @@
             sensor-bindings = <&scroll_encoder>;
         };
         layer_2 {
+            bindings = <
             &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10         &kp F11
 &trans                  &mkp LCLK        &mkp MCLK       &mkp RCLK        &mkp MB4         &kp N5             &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS       &kp EQUAL
 &trans      &trans      &trans           &trans          &trans           &mkp MB5                            &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT   &kp SEMICOLON  &kp LS(SQT)
 &trans      &kp PLUS         &kb MINUS       &kp EQUAL        &kp LEFT_BRACKET &kb LEFT-PARENTHESIS    &mmv MOVE_RIGHt  &kp RIGHT-PARENTHESIS  &kp RIGHT-BRACKET  &kp LESS-THAN  &kp GREATER-THAN    &kp NON_US_BACKLASH           &kp PIPE
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
-            >;
             >;
             display-name = "layer_2"
             sensor-bindings = <&scroll_encoder>;
